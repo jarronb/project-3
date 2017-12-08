@@ -150,10 +150,7 @@ footer {
   left: 0;
   box-shadow: 0  0.2778em 0.556em #000000; /* NOTE: 5px/18 =0.2778 ; 10/18=556  */
 }
-  width: 33.333333333333333333333333333333%;
-  background-color: blue;
-  float: left;
-}
+
 #navigation a {
   display: block;
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
@@ -162,8 +159,6 @@ footer {
   text-decoration: none;
   color: white;
 }
-
-
 /* Modular Styles */
 /*
   Repeating style patterns.
