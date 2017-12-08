@@ -177,6 +177,11 @@ figure figcaption {
   font-size: 0.77777777777777777777777777777778em; /* NOTE: 14 / 18 =  0.77777777777777777777777777777778*/
   padding-left: 1.571em; /* NOTE: 22 / 14 = 1.5714285714285714285714285714286 */
 }
+#contact-me h3 {
+  margin-top: 1.222em; /* 22 / 18 = 1.222*/
+  color: #000000;
+  text-align: center;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -199,6 +204,10 @@ figure figcaption {
   text-align: center;
 }
 
+#contact-me {
+  background-color: #A5606D;
+  opacity: 0.5;
+}
 /* State Styles */
 /*
   States of the browser and user access
