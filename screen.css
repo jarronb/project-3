@@ -263,12 +263,31 @@ figure figcaption {
     content: "larger-screen";
     display: none;
   }
+  #navigation {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  #navigation li {
+    width: 33.333333333333333333333333333333%;
+    float: left;
+  }
+  #navigation a {
+    text-align: center;
+    padding-bottom: 1.222em; /* 22 / 18 = 1.222*/
+  }
+
+
   .js #menu {
     display: none;
   }
   .js #navigation ul {
     display: block;
   }
+
+}
+
 @media screen and (min-width: 640px) {
   html {
     font-size: 1.25em; /* 20 / 16 =  1.25*/
