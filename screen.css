@@ -297,24 +297,29 @@ figure figcaption {
     padding-bottom: 0.611em; /* NOTE: 11/18 = 0.61111111111111111111111111111111 */
   }
 }
+
 @media screen and (min-width: 1000px) {
-  /* NOTE: Grid
+  /* NOTE: Grid for Resume and Home Page
       7 column grid
       margin 200px
       grid 700 px
-      gutters 150px px: 92.857px
-      Education 4 section + 2 gutters
-      Corses 3 sections + 2 gutters
+      gutters 150px
+      Section px: 92.857px
+      Education & fwd-section 4 section + 2 gutters
+      Corses & hci-section 3 sections + 2 gutters
    */
-  #resume body {
+  #resume body,
+  #home body {/* NOTE: Home page */
     padding-left: 10%; /* NOTE: 100 / 1000 =  .10*/
     padding-right: 10%;
   }
-  #education {
+  #education,
+  #fwd-section {/* NOTE: Home page */
     width: 52.6785%; /* NOTE: 421.428 / 800 =  0.526785*/
     float: left;
   }
-  #courses {
+  #courses,
+  #hci-section {/* NOTE: Home Page */
     width: 41.071375%; /* NOTE: 328.571 / 800 =  0.41071375*/
     margin-left: 6.25%; /* NOTE: 50 / 800 =  0.0625*/
     float: left;
@@ -323,7 +328,6 @@ figure figcaption {
       Projects 4 section + 2 gutters
       experience 3 sections + 2 gutters
    */
-
   #projects {
     clear: both;
     width: 52.6785%; /* NOTE: 421.428 / 800 =  0.526785*/
