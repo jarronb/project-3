@@ -69,6 +69,13 @@ h1 a {
   padding-left: 0.235em; /* NOTE: 10 / 42.635 = 0.23454907939486337516125249208397 */
   padding-right: 0.235em;
 }
+a:active,
+a:focus {
+  color: #A5606D;
+}
+h1 a:hover {
+  border-color: #0645AD;
+}
 h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777*/
   line-height: 1.032em; /* 33 / 31.984 = 1.032 */
