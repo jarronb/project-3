@@ -144,11 +144,11 @@ footer {
 #navigation {
   position: absolute;
   width: 100%;
-  background-color: green;
+  background-color: #DB4E58;
   top: 0;
   left: 0;
+  box-shadow: 0  0.2778em 0.556em #000000; /* NOTE: 5px/18 =0.2778 ; 10/18=556  */
 }
-#navigation li {
   width: 33.333333333333333333333333333333%;
   background-color: blue;
   float: left;
