@@ -232,9 +232,20 @@ figure figcaption {
 .js #navigation ul {
   display: none;
 }
+.js body.nav-effect-body {
+  padding-top: 11em; /* NOTE: 198 / 18 =  */
+}
 .js body::after {
   content: "mobile";
   display: none;
+}
+.js #navigation ul.is-visible {
+  display: block;
+}
+
+.no-js #navigation li {
+  width: 33.333333333333333333333333333333%;
+  float: left;
 }
 
 @media screen and (min-width: 375px) {
