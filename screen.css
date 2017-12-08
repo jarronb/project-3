@@ -58,6 +58,7 @@ h1 {
   line-height: 1.032em; /* 44 / 42.635 = 1.032*/
   padding-bottom: 1.032em; /* 44 / 42.635 = 1.032*/
   text-align: center;
+  padding-top: 0.556em; /* NOTE: 10/18=556 */
 }
 h1 a {
   text-decoration: none;
@@ -155,13 +156,11 @@ footer {
 }
 #navigation a {
   display: block;
-  width: 100%;
+  padding-left: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
+  padding-right: 1.222em; /* 22 / 18 = 1.2222222222222222222222222222222*/
   padding-top: 1.222em; /* 22 / 18 = 1.222*/
-  padding-bottom: 1.222em; /* 22 / 18 = 1.222*/
-  text-align: center;
   text-decoration: none;
   color: white;
-  background-color: #000000;
 }
 
 
