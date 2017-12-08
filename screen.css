@@ -345,7 +345,7 @@ figure figcaption {
   /* NOTE: Grid
       5 column grid
       margin 200px
-      grid 800 px
+      grid 700 px
       gutters 100 px
       primary 445 px
       support 305 px
@@ -368,6 +368,28 @@ figure figcaption {
     float: left;
   }
   #about-footer {
+    clear: both;
+  }
+
+  /* NOTE: Home Page Grid
+  5 column grid
+  margin 200px
+  grid 800 px
+  gutters 100 px
+  Picture 445 px
+  Contact 305 px
+  actual gutter 50px
+   */
+  #home-supporting {
+    width: 52.5%; /* NOTE: 420 / 800 = 52.5*/
+    float: left;
+  }
+  #contact-me {
+    margin-left: 6.25%;
+    width: 41.25%;
+    float: left;
+  }
+  #home-footer {
     clear: both;
   }
   .flexbox #content,
