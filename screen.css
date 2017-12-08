@@ -163,6 +163,20 @@ a:hover
 #navigation a:hover {
   color: #0645AD;
 }
+figure {
+  position: relative;
+}
+figure figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+  font-weight: bold;
+  font-size: 0.77777777777777777777777777777778em; /* NOTE: 14 / 18 =  0.77777777777777777777777777777778*/
+  padding-left: 1.571em; /* NOTE: 22 / 14 = 1.5714285714285714285714285714286 */
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -178,6 +192,11 @@ a:hover
 }
 .list-majoritem::first-line {
   font-weight: bold;
+}
+#about-me figcaption {
+  padding: 0;
+  width: 100%;
+  text-align: center;
 }
 
 /* State Styles */
@@ -200,6 +219,10 @@ a:hover
 @media screen and (min-width: 640px) {
   html {
     font-size: 1.25em; /* 20 / 16 =  1.25*/
+  }
+  #home figure figcaption {
+    padding-top: 0.611em; /* NOTE: 11/18 = 0.61111111111111111111111111111111 */
+    padding-bottom: 0.611em; /* NOTE: 11/18 = 0.61111111111111111111111111111111 */
   }
 }
 @media screen and (min-width: 1000px) {
@@ -279,5 +302,13 @@ a:hover
   }
   .flexbox #res-primary h2 {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #home figure figcaption {
+    font-size: 1.222em; /* 22 / 18 = 1.222*/
+    padding-top: 0.611em; /* NOTE: 11/18 = 0.61111111111111111111111111111111 */
+    padding-bottom: 0.611em; /* NOTE: 11/18 = 0.61111111111111111111111111111111 */
   }
 }
