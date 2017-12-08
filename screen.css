@@ -208,6 +208,10 @@ figure figcaption {
   background-color: #A5606D;
   opacity: 0.5;
 }
+#contact-me ul {
+  padding: 0.556em; /* NOTE: 10/18 =  0.55555555555555555555555555555556*/
+  list-style-position: inside;
+}
 /* State Styles */
 /*
   States of the browser and user access
