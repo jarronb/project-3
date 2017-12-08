@@ -248,6 +248,9 @@ figure figcaption {
   float: left;
 }
 
+.no-js #navigation ul {
+  display: block;
+}
 @media screen and (min-width: 375px) {
   body {
     padding-right: 11.733333333333333333333333333333%;  /* 44 / 375 = 11.733333333333333333333333333333%*/
@@ -259,6 +262,12 @@ figure figcaption {
   .js body::after {
     content: "larger-screen";
     display: none;
+  }
+  .js #menu {
+    display: none;
+  }
+  .js #navigation ul {
+    display: block;
   }
 @media screen and (min-width: 640px) {
   html {
